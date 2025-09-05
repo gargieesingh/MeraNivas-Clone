@@ -1,1 +1,10 @@
 @import "tailwindcss";
+.icon-div{
+    @apply flex border-2 h-15 w-40
+}
+.icon-div>p{
+    @apply text-center
+}
+.icon-div>img{
+    @apply rounded-full
+}
